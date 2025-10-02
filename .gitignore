@@ -21,6 +21,12 @@ error.md
 image/
 runtime_results/
 
+# UI设计文档和参考截图（不提交）
+page_elements/
+PROJECT_ROADMAP.md
+DEV_PLAN_BASE.md
+UI_DESIGN_SPEC.md
+
 # 依赖目录
 node_modules/
 source/_drafts
