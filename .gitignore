@@ -1,0 +1,51 @@
+# Hexo 生成文件
+public/
+db.json
+*.log
+.deploy*/
+_multiconfig.yml
+_config.*.yml
+.gitkeep
+# 策略和决策文档（不提交到版本控制）
+strategy.md
+projectREADME.md
+modules/*.md
+bugfixes/*.md
+blacklist.md
+*.decision.md
+*-README.md
+error.md
+
+# 项目协作文件（不提交）
+.claude/
+image/
+runtime_results/
+
+# 依赖目录
+node_modules/
+source/_drafts
+scaffolds
+
+# IDE 配置
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 调试文件
+debug.log
+npm-debug.log*
+
+# 本地环境配置
+.env
+.multiconfig.yml
+
+# 主题自定义配置（假设使用 next 主题）
+themes/next/_config.*.yml
